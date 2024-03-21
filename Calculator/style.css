@@ -1,0 +1,32 @@
+
+.max-w{
+    margin-left: 580px;
+}
+.over{
+    max-width: 30vw;
+}
+.btn{
+    margin: 0 2px;
+    padding: 10px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bolder;
+    font-size: large;
+    cursor: pointer;
+    width: 66px;
+}
+.btn:hover{
+    background-color: rgba(249, 39, 39, 0.843);
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.802);
+}
+
+.row{
+    margin: 6px 0;
+}
+
+.input{
+    padding: 10px 2px;
+    width: 290px;
+    border-radius: 10px;
+}

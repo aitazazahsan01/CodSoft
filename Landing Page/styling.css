@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 80vw;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+    margin-left: auto;
+}
+.navbar li{
+    list-style: none;   
+    margin: 0 25px;
+    font-size: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.navbar li:hover{
+    color: skyblue;
+    transform: scale(1.2);
+}
+
+.flex-item{
+    margin-bottom: 0;
+    font-size: 7vh;
+    color:darkorange;
+    font-weight: bolder;
+    font-style: normal;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.flex-item:hover{
+    transform: scale(1.5);
+    color: transparent;
+    text-decoration-line: line-through;
+}
+
+.topleft{
+    width: 50%;
+    height: 60vh;
+    padding-left: 90px;
+    padding-right: 13px;
+}
+.topright{
+    width: 50%;
+    height: 50vh;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 2.1rem;
+}
+
+.btn{
+    padding: 8px 10px;
+    background-color: orange;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;
+}
+.btn:hover{
+    background-color: orange;
+    box-shadow: 2px 2px 2px orangered;
+}
+.image{
+    height: 100vh;
+    margin-left: 330px;
+}
+
+.dumbell{
+    height: 18vh;
+    margin-left: 90px;
+}
+
+.section2{
+    padding-left: 65px;
+    padding-right: 65px;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+.my-2{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 2rem;
+    text-align: center;
+    color: darkred;
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+    font-size: large;
+}
+
+.box{
+    margin: 12px 20px;
+    min-width: 20vw;
+    border: 2px solid orange;
+    border-radius: 8px;
+    text-align: center;
+    padding: 4px 2px;
+    box-shadow: 3px 3px darkorange;
+    transition-duration: 0.5s;
+}
+
+.box:hover{
+    box-shadow: 5px 5px yellow;
+    transform: scale(1.2);
+}
+
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box-btn{
+    padding: 6px 8px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white;    
+}
+
+.box-btn:hover{
+    background-color: rgb(255, 115, 0);
+    color: black;
+    box-shadow: 2px 2px rgba(226, 152, 15, 0.885);
+}
+
+ .reg-btn{
+    padding: 6px 8px;
+    background-color: rgb(255, 115, 0);
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 12px;
+    color: white; 
+}
+
+.footer{
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(242, 161, 9, 0.719);
+}
